@@ -1,0 +1,112 @@
+.navbar-toggler-icon{
+    background-image: url('/assets/img/Group1.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.brand-centered {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 12px;;
+  }
+  .font{
+    font-family: Montserrat;
+    font-size: 25px;
+    /* height: 24px; */
+    line-height: 17px;
+  }
+
+  .btn-ali{
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    border-radius: 24px
+  }
+
+  .display{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 22px;
+  }
+
+  .card-ali{
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 0px 9px 20px rgba(117, 117, 117, 0.1);
+    border-radius: 8px;
+  }
+
+  .img-1 {
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    }
+  .img-2 {
+    position: absolute;
+    left: calc(25% - 125px);
+    bottom: 0px;
+    top: 9px;
+    left: 31px;
+    }
+  .img-3{
+    position: absolute;
+    left: calc(28% - 125px);
+    bottom: 0px;
+    top: 9px;
+    left: 45px;
+  }
+
+  .btn-radius{
+    border-radius: 25px;
+  }
+  .bg-grade{
+    background-image: linear-gradient(120.53deg, #FE6636 11.7%, #D64E63 92.52%);
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(162, 162, 162, 0.25);
+    height: 75.98px;
+
+}
+
+
+/* @media (min-height: 680px), screen and (orientation: portrait) {
+    div {position: relative;}
+    
+    div img {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    margin-bottom: 20px;}
+    } */
+
+    .img-fix {
+        /* top: 50%;
+        left: -5%; */
+        -webkit-transform: translate(-1%, -50%);
+        -moz-transform: translate(-1%, -50%);
+        -ms-transform: translate(-1%, -50%);
+        -o-transform: translate(-1%, -50%);
+        transform: translate(-1%, -50%);
+        width: 70.63px;
+        height: 70.63px;
+    }
